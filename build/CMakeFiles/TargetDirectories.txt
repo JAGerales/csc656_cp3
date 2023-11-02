@@ -1,7 +1,0 @@
-/home/gator/Desktop/CSC656/csc656_cp3/build/CMakeFiles/benchmark.dir
-/home/gator/Desktop/CSC656/csc656_cp3/build/CMakeFiles/benchmark-basic.dir
-/home/gator/Desktop/CSC656/csc656_cp3/build/CMakeFiles/benchmark-vectorized.dir
-/home/gator/Desktop/CSC656/csc656_cp3/build/CMakeFiles/benchmark-blas.dir
-/home/gator/Desktop/CSC656/csc656_cp3/build/CMakeFiles/benchmark-openmp.dir
-/home/gator/Desktop/CSC656/csc656_cp3/build/CMakeFiles/edit_cache.dir
-/home/gator/Desktop/CSC656/csc656_cp3/build/CMakeFiles/rebuild_cache.dir
