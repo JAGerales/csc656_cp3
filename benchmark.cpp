@@ -94,7 +94,7 @@ int main(int argc, char** argv)
 
         // insert start timer code here
         std::chrono::time_point<std::chrono::high_resolution_clock> start = std::chrono::high_resolution_clock::now();
-        //not going into function?
+        
         // call the method to do the work
         my_dgemv(n, A, X, Y); 
 
