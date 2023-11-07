@@ -19,11 +19,11 @@ void my_dgemv(int n, double* A, double* x, double* y) {
       int nthreads = omp_get_num_threads();
       int thread_id = omp_get_thread_num();
       printf("my_dgemv(): Hello world: thread %d of %d checking in. \n", thread_id, nthreads);
-      
-      #pragma omp parallel for reduction(+:sum)
+      // need sum out here 
       for (int i = 0; i < n; i++){ // row
          int rowOffset = i * n; 
          double sum = 0.0;
+         #pragma omp parallel for reduction(+:sum)
          for (int j = 0; j < n; j++){ // column
             sum += A[rowOffset + j] * x[j];
          }
