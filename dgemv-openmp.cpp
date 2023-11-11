@@ -15,7 +15,7 @@ const char* dgemv_desc = "OpenMP dgemv.";
 void my_dgemv(int n, double* A, double* x, double* y) {
       int nthreads = omp_get_num_threads();
       int thread_id = omp_get_thread_num();
-      printf("my_dgemv(): Hello world: thread %d of %d checking in. \n", thread_id, nthreads);
+      //printf("my_dgemv(): Hello world: thread %d of %d checking in. \n", thread_id, nthreads);
       // need sum out here 
       for (int i = 0; i < n; i++){ // row
          int rowOffset = i * n; 
